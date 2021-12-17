@@ -25,7 +25,7 @@ In the figure above, the blue line represents zero change. No axes are shown as 
 
 Much like the feature distributions, the above figure contains no speific values. Instead, note the blue and red dotted lines that represent positive and negative correlation, respectively. Highly correlated features, such as the percent of the population that identifies as white or black, will follow one of these lines. Having features like this can be an issue due to their redundany, making certain general features appear more important than they actually are.
 
-## Enter: Prinipal Component Analysis
+## PCA
 
 Our third data transformation remedies the aforementioned correlated features. Principal Component Analysis (PCA) creates a new set of features, called principal components, from raw features to represent the underlying structure of these data. For example, rent, home value, and housing construction, may all be compressed to the same general "housing" feature. In this way, PCA retains the information that helps differentiate our counties in fewer features.
 
