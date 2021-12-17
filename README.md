@@ -19,9 +19,9 @@ Three main steps were taken to transform these data. First, data were normalized
 
 <iframe src = "raw_dist.html" 
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1050"
     height="400"
-    scrolling="no"
+    scrolling="yes"
     seamless="seamless"
     frameborder="0"></iframe>
 
@@ -29,9 +29,9 @@ In the figure above, the blue line represents zero change. No axes are shown as 
 
 <iframe src = "raw_corr.html" 
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1050"
     height="400"
-    scrolling="no"
+    scrolling="yes"
     seamless="seamless"
     frameborder="0"></iframe>
 
@@ -59,17 +59,17 @@ The following two visualizations recreate the previous distribution and correlat
 
 <iframe src = "pca_dist.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1050"
     height="400"
-    scrolling="no"
+    scrolling="yes"
     seamless="seamless"
     frameborder="0"></iframe>
 
 <iframe src = "pca_corr.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1050"
     height="400"
-    scrolling="no"
+    scrolling="yes"
     seamless="seamless"
     frameborder="0"></iframe>
 
@@ -79,9 +79,9 @@ Using these seven new features, an interactive visualization of socioeconomic fa
 
 <iframe src = "final_viz.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1050"
     height="400"
-    scrolling="no"
+    scrolling="yes"
     seamless="seamless"
     frameborder="0"></iframe>
 
