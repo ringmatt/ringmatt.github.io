@@ -31,7 +31,7 @@ Our third data transformation remedies the aforementioned correlated features. P
 
 To find the optimal number of principal components, first, we only take features which explain greater than 1% of the variance in the data. Second, we take enough features to explain more than 70% of the total variance in our data. Third, we use the scree plot shown below to determine the point of diminishing returns for adding components. Known as the elbow, we should take all features before explained variance diminishes. Finally, we want to ensure manufacturing employment is an included component.
 
-![scree plots](scree_plots.png "screeplots")
+![scree plots](scree_plots.png "scree plots")
 
 In the scree plot above, there is an elbow around four components and poor variance explanation beyond 15 components. Likewise, based on the cumulative variance plot, at least five components are needed to adequately explain the variance in the data. Using this information, six components were selected. The third component is almost entirely explained by manufacturing employment, which meets our final criteria for PCA. Each principal components is defined as follows:
 
