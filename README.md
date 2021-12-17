@@ -17,11 +17,11 @@ All data used comes from the Census, including the [5-year American Community Su
 
 Three main steps were taken to transform these data. First, data were normalized based on population. Second, change in each feature over time by county was calculated. For example, these data went from a value of manufacturing employment to change in manufacturing employment for every county. The data at this stage are shown in the interactive visualizations below.
 
-<iframe src = "raw_dist.html" width = "900" height = "500"></iframe>
+<iframe src = "raw_dist.html" width = "925" height = "500"></iframe>
 
 In the figure above, the blue line represents zero change. No axes are shown as these points have already been normalized and aggregated. What is of interest is the general distribtuion as opposed to any specific values. Points to the right show counties with increases in that feature, and those to the left represent decreases. Points are spaced vertically for ease of viewing; The y-value does not give any additional information.
 
-<iframe src = "raw_corr.html" width = "900" height = "500"></iframe>
+<iframe src = "raw_corr.html" width = "925" height = "500"></iframe>
 
 Much like the feature distributions, the above figure contains no speific values. Instead, note the blue and red dotted lines that represent positive and negative correlation, respectively. Highly correlated features, such as the percent of the population that identifies as white or black, will follow one of these lines. Having features like this can be an issue due to their redundany, making certain general features appear more important than they actually are.
 
@@ -45,15 +45,15 @@ In the scree plot above, there is an elbow around four components and poor varia
 
 The following two visualizations recreate the previous distribution and correlation figures for the principal components data. Once again, the vertical blue line shows the zero point in the distribution, and the diagonal blue and red dotted lines show positive and negative correlation, respectively. Note the more normalized distributions and lack of correlation. PCA has helped us create useful and distinct features which we can now use for the final visualizaition.
 
-<iframe src = "pca_dist.html" width = "900" height = "500"></iframe>
+<iframe src = "pca_dist.html" width = "925" height = "500"></iframe>
 
-<iframe src = "pca_corr.html" width = "900" height = "500"></iframe>
+<iframe src = "pca_corr.html" width = "925" height = "500"></iframe>
 
 ## Results
 
 Using these seven new features, an interactive visualization of socioeconomic factors has been created below. Using the sliders, one can define a range with which to subset the data. Note that the values of these features are meaningless on their own. Instead, they should be interpretted in relation to one another. A value of 0.5 for manufacturing decline, for instance, means that county lost a greater percent of its manufacturing workforce than a countywith a value of zero. The initial values have been set to generally define the Rust Belt but can be adapted as one sees fit.
 
-<iframe src = "final_viz.html" width = "900" height = "700"></iframe>
+<iframe src = "final_viz.html" width = "925" height = "700"></iframe>
 
 ## Conclusions & Discussion
   
