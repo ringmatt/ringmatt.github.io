@@ -5,7 +5,7 @@
 
 ## Introduction
 
-I couldn't tell you the first time I saw a shuttered factory. It might have been the vacant paper mill in Vicksburg, MI, one of many in the Kalamazoo area, shown above. Little did I know, these buildings marked a trend that spans broad swaths of the United States' manufacturing heartland. This "Rust Belt" is defined by deindustrialization, as are the lives of all who live there.
+I couldn't tell you the first time I saw a shuttered factory. It might have been the vacant paper mill in Vicksburg, MI shown above, one of many in the Kalamazoo area. Little did I know, these buildings marked a trend that spans the United States' manufacturing heartland. This "Rust Belt" is defined by deindustrialization, as are the lives of all who live there.
 
 While a part of my life, my conception of the Rust Belt was always vague. Detroit, Chicago, and Pittsburgh were definitely in the Rust Belt, but what about Minneapolis, Des Moines, or Louisville? Questions about the boundaries of the Rust Belt came to my attention after reading [this](https://medium.com/migration-issues/where-is-the-rust-belt-d1dd280cf8a8) piece. While many of the variables made sense, the end result felt presupposed. Features were selected to fit the authors preconceived notion of the Rust Belt's boundaries.
 
